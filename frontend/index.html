@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rexfunds - Invest & Earn</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Rexfunds</h1>
+    <p>Start your investment journey today!</p>
+
+    <form id="investForm">
+      <input type="text" id="name" placeholder="Full Name" required />
+      <input type="number" id="amount" placeholder="Amount (₦)" required />
+      <select id="plan">
+        <option value="1">₦2,000 → ₦3,200 (1 day)</option>
+        <option value="2">₦3,000 → ₦4,800 (2 days)</option>
+        <option value="3">₦4,000 → ₦6,400 (3 days)</option>
+      </select>
+      <button type="submit">Invest Now</button>
+    </form>
+
+    <p id="responseMessage"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+                                        </html>
